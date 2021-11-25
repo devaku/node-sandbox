@@ -1,0 +1,17 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Node sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "devaku",
+  "license": "ISC",
+  "keywords": [
+    "Node"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
