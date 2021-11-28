@@ -4,13 +4,15 @@
   "description": "Node sandbox",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test":"nodemon test.js"
   },
   "author": "devaku",
   "license": "ISC",
   "keywords": [
     "Node"
   ],
+  "type": "module",
   "devDependencies": {
     "dotenv": "^10.0.0",
     "morgan": "^1.10.0",
