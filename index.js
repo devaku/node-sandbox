@@ -15,7 +15,7 @@ if (process.env.NODE_ENV.toUpperCase() === 'DEVELOPMENT') {
 }
 
 // Set routes
-require('./routes')(app);
+require('./api')(app);
 
 // Public folder
 app.use(express.static('public'));
