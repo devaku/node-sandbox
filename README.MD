@@ -1,5 +1,3 @@
 # README
 
-> npm install 
-
-> npm run test
+Just a sandbox that contains an Express Server that can be used as a template for future coding projects.
