@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 8080;
 // Set the ROOT DIRECTORY
 global.ROOT_DIRECTORY = __dirname;
 
+// For development
 if (process.env.NODE_ENV.toUpperCase() === 'DEVELOPMENT') {
     const morgan = require('morgan');
     app.use(morgan('short'));
