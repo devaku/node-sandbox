@@ -18,7 +18,12 @@ if (process.env.NODE_ENV.toUpperCase() === 'DEVELOPMENT') {
 require('./api')(app);
 
 // Public folder
-app.use(express.static('public'));
+const path = require('path');
+let staticFolder = path.join(__dirname, '/public');
+app.use(express.static(staticFolder));
+
+// Set view engine as EJS
+app.set('view engine', 'ejs');
 
 app.set('PORT', PORT);
 app.listen(PORT, () => {
