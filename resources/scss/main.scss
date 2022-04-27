@@ -1,0 +1,10 @@
+@use 'variables';
+
+
+
+* { 
+    box-sizing: border-box;
+    background-color: variables.$primary;
+    color: var(--blue);
+}
+
